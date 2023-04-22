@@ -1,0 +1,56 @@
+name: Actualizar archivo con cantidad de archivos en los directorios
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          ref: main # Checkout the main branch
+
+      - name: Configurar Git
+        run: |
+          git config --global user.email "silvialuban@gmail.com"
+          git config --global user.name "Ivaj"
+      - name: Crear y actualizar directorio vertical
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/vertical"
+          rm -rf "$GITHUB_WORKSPACE/vertical/"*
+          cd "$GITHUB_WORKSPACE/verticalImagenes"
+          i=1
+          find . -type f | while IFS= read -r img; do
+            ext=${img##*.}
+            cp "$img" "$GITHUB_WORKSPACE/vertical/imagen$(printf '%03d' $i).$ext"
+            i=$((i+1))
+          done
+      - name: Crear y actualizar directorio Horizontal
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/horizontal"
+          rm -rf "$GITHUB_WORKSPACE/horizontal/"*
+          cd "$GITHUB_WORKSPACE/horizontalImagenes"
+          i=1
+          find . -type f | while IFS= read -r img; do
+            ext=${img##*.}
+            cp "$img" "$GITHUB_WORKSPACE/horizontal/imagen$(printf '%03d' $i).$ext"
+            i=$((i+1))
+          done
+      - name: Confirmar y empujar cambios
+        run: |
+          git add -A
+          git diff-index --quiet HEAD || git commit -m "Eliminar archivos antiguos y agregar nuevos"
+          git push
+      - name: Crear archivo con cantidad de archivos en cada directorio
+        run: |
+          vertical_count=$(find "$GITHUB_WORKSPACE/vertical" -type f | wc -l)
+          horizontal_count=$(find "$GITHUB_WORKSPACE/horizontal" -type f | wc -l)
+          echo "vertical: $vertical_count" > "$GITHUB_WORKSPACE/cantidad_de_archivos.txt"
+          echo "horizontal: $horizontal_count" >> "$GITHUB_WORKSPACE/cantidad_de_archivos.txt"
+          git add "$GITHUB_WORKSPACE/cantidad_de_archivos.txt"
+          git diff-index --quiet HEAD || git commit -m "Actualizar cantidad de archivos en los directorios"
+          git push
