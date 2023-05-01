@@ -241,5 +241,32 @@
     "ImageId": "0026",
     "LastTimeUpdatedImage": "5233041986427387904",
     "PatreonType": 6
+  },
+  {
+    "VrcId": null,
+    "Username": "Plato",
+    "DiscordId": 535541675674828803,
+    "PrimaryRoleId": "@everyone; Patrons; People; Thunderstorms",
+    "ImageId": "0027",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 5
+  },
+  {
+    "VrcId": null,
+    "Username": "Darelt",
+    "DiscordId": 512742820868653056,
+    "PrimaryRoleId": "@everyone; People; Friends; designer",
+    "ImageId": "0028",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 6
+  },
+  {
+    "VrcId": null,
+    "Username": "Rioni",
+    "DiscordId": 490599226200424448,
+    "PrimaryRoleId": "@everyone; People; Friends",
+    "ImageId": "0029",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 6
   }
 ]
