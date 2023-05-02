@@ -273,9 +273,9 @@
     "VrcId": null,
     "Username": "MachapeStudio",
     "DiscordId": 146431161588121601,
-    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops",
+    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops; Friends",
     "ImageId": "0030",
     "LastTimeUpdatedImage": "5233041986427387904",
-    "PatreonType": 2
+    "PatreonType": 6
   }
 ]
