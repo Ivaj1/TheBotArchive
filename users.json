@@ -111,10 +111,10 @@
     "VrcId": null,
     "Username": "mylovelysuga",
     "DiscordId": 324347934831411200,
-    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops; Friends",
+    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops; Thunderstorms",
     "ImageId": "0012",
     "LastTimeUpdatedImage": "5249864960106954473",
-    "PatreonType": 6
+    "PatreonType": 5
   },
   {
     "VrcId": null,
