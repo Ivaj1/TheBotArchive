@@ -268,5 +268,14 @@
     "ImageId": "0029",
     "LastTimeUpdatedImage": "5249871682394164849",
     "PatreonType": 6
+  },
+  {
+    "VrcId": null,
+    "Username": "MachapeStudio",
+    "DiscordId": 146431161588121601,
+    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops",
+    "ImageId": "0030",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 0
   }
 ]
