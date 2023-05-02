@@ -268,5 +268,14 @@
     "ImageId": "0029",
     "LastTimeUpdatedImage": "5233041986427387904",
     "PatreonType": 6
+  },
+  {
+    "VrcId": null,
+    "Username": "Juhanicc",
+    "DiscordId": 466236490205102080,
+    "PrimaryRoleId": "@everyone; People",
+    "ImageId": "0030",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 0
   }
 ]
