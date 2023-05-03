@@ -156,10 +156,10 @@
     "VrcId": null,
     "Username": "YamikaDesu",
     "DiscordId": 967394669325611058,
-    "PrimaryRoleId": "@everyone; People; VRChat user; Friends",
+    "PrimaryRoleId": "@everyone; People; VRChat user",
     "ImageId": "0017",
     "LastTimeUpdatedImage": "5249873216226963792",
-    "PatreonType": 6
+    "PatreonType": 0
   },
   {
     "VrcId": null,
