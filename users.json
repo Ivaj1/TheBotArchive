@@ -313,5 +313,14 @@
     "ImageId": "0034",
     "LastTimeUpdatedImage": "5233041986427387904",
     "PatreonType": -1
+  },
+  {
+    "VrcId": null,
+    "Username": "SrKiller",
+    "DiscordId": 848394836959690783,
+    "PrimaryRoleId": "@everyone; People",
+    "ImageId": "0035",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 0
   }
 ]
