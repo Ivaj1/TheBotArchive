@@ -304,5 +304,14 @@
     "ImageId": "0033",
     "LastTimeUpdatedImage": "5233041986427387904",
     "PatreonType": 0
+  },
+  {
+    "VrcId": null,
+    "Username": "Hoodlum",
+    "DiscordId": 160878900828700672,
+    "PrimaryRoleId": "",
+    "ImageId": "0034",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": -1
   }
 ]
