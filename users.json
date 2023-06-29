@@ -273,7 +273,7 @@
     "VrcId": "MachapeStudio",
     "Username": "MachapeStudio",
     "DiscordId": 146431161588121601,
-    "PrimaryRoleId": "@everyone; Patrons; People; Raindrops",
+    "PrimaryRoleId": "@everyone; Patrons; People",
     "ImageId": "0030",
     "LastTimeUpdatedImage": "5249871936118596014",
     "PatreonType": 2
@@ -358,5 +358,14 @@
     "ImageId": "0039",
     "LastTimeUpdatedImage": "5233041986427387904",
     "PatreonType": 0
+  },
+    {
+    "VrcId": null,
+    "Username": "CmdrShepardsPie",
+    "DiscordId": 346409875749863434,
+    "PrimaryRoleId": "@everyone; People; Raindrops",
+    "ImageId": "0040",
+    "LastTimeUpdatedImage": "5233041986427387904",
+    "PatreonType": 2
   }
 ]
